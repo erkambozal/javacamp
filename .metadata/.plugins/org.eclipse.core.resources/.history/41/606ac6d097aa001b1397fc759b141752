@@ -1,0 +1,20 @@
+package Ödev3;
+
+public class User {
+
+private	int id;
+private	String firstName;
+private	String lastName;
+private	String userName;
+private	String userType;
+
+
+public User( int id, String firstName, String lastName, String userName, String userType) {
+	this.id = id;
+	this.firstName = lastName;
+	this.lastName = lastName;
+	this.userName = userName;
+	this.userType = userType;
+	}
+}
+

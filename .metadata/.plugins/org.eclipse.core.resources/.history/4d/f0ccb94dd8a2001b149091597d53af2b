@@ -1,0 +1,12 @@
+package intro;
+
+public class giriþ {
+
+	public static void main(String[] args) {
+		String selaminaleykum = "Vealeykumselam"
+		
+		System.out.println(selaminaleykum);
+
+	}
+
+}

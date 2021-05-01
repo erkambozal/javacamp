@@ -1,0 +1,26 @@
+package Ödev3;
+
+public class UserManager {
+	
+	public void add(User user) {
+		
+	System.out.println(user.getFirstName()+"" + user.getLastName() + "kullanýcýsý eklendi.");
+	}
+	public void addMultiple(User[] users) {
+		for(User user : users) {
+			add(user);
+		}
+	}
+	
+	public void login(String userName, String userType) {
+		System.out.println(userName + "adlý kullanýcý giriþ yaptý.");
+	}
+	
+	public void logout(User user) {
+		System.out.println(user.getUserName() + "adlý kullanýcý çýkýþ yaptý.");
+	}
+	public void delete (User user) {
+		System.out.println(user.getFirstName() + "" + user.getLastName() + "adlý kullanýcý silindi.");
+	}
+
+}

@@ -1,0 +1,17 @@
+package homework;
+
+public class course {
+	
+	public Course(int Id, String courseName, String instructorName, String detail)
+	{
+		this.Id = Id;
+		this.courseName = courseName;
+		this.instructorName = instructorName;
+		this.detail = detail;
+	}
+int Id;
+String courseName;
+String instructorName;
+String detail;
+
+}

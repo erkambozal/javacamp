@@ -1,0 +1,9 @@
+package Ödev3;
+
+public class InstructorManager {
+	
+	public void givenLesson(Instructor instructor) {
+		System.out.println();
+	}
+
+}

@@ -1,0 +1,9 @@
+package Ödev3;
+
+public class InstructorManager {
+	
+	public void addGivenLesson(Instructor engin) {
+		System.out.println(engin.getGivenLesson() + "dersi verildi.");
+	}
+
+}

@@ -1,0 +1,16 @@
+package Ödev3;
+
+public class Student extends User {
+	
+private	String takenLesson;
+private	String doneHomework;
+
+	public Student() {
+		
+	}
+	
+	public Student(String takenLesson, String doneHomework) {
+		this.takenLesson = takenLesson;
+		this.doneHomework = doneHomework;
+	}
+}

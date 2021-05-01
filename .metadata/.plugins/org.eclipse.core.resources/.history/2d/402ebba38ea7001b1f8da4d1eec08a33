@@ -1,0 +1,12 @@
+package homework;
+
+public class students {
+	
+	public Student(int id, String studentName)
+	{
+		this.id = id;
+		this.studentName = studentName;
+	}
+int id;	
+String studentName;
+}
